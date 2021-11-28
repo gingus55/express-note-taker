@@ -4,6 +4,12 @@
 
 - Deployed Heroku link
 
+https://cryptic-island-27411.herokuapp.com/
+
+- Link to repository
+
+https://github.com/gingus55/express-note-taker
+
 ## Description
 
 Back end application to save and update notes. With front end written the back-end was created using express in order to get notes, create and delete.
