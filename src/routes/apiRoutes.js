@@ -7,10 +7,10 @@ const {
 
 const router = Router();
 
-router.get("/", getNotes);
+router.get("/notes", getNotes);
 
-router.post("/", createNotes);
+router.post("/notes", createNotes);
 
-router.delete("/:id", deleteNotes);
+router.delete("/notes/:id", deleteNotes);
 
 module.exports = router;
