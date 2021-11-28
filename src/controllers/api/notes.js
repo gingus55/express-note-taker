@@ -3,14 +3,14 @@ const { v4: uuidv4 } = require("uuid");
 
 const validKeys = ["title", "text"];
 
-const getNotes = (req, res) => {
+const getNotes = async (req, res) => {
   // path
 
   console.log("get the notes");
 
-  const notes = getDataFromFile;
+  const notes = await getDataFromFile();
 
-  res.json(notes);
+  return res.json(notes);
 };
 
 const createNotes = (req, res) => {
