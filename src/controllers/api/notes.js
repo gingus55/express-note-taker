@@ -33,8 +33,6 @@ const createNotes = (req, res) => {
 };
 
 const deleteNotes = (req, res) => {
-  console.log("delete a note");
-
   const { id } = req.params;
 
   const notes = getDataFromFile();
