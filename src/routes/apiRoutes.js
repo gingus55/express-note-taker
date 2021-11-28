@@ -3,7 +3,7 @@ const {
   getNotes,
   createNotes,
   deleteNotes,
-} = require("../../controllers/api/notes");
+} = require("../controllers/api/notes");
 
 const router = Router();
 
